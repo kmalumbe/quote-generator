@@ -1,3 +1,8 @@
+html, body, #root, #root>div {
+    height: 100%;
+    margin: 0;
+  }
+
 .text{
     font-size: 28pt;
     color: black;
@@ -8,6 +13,9 @@
     /* font-size: 20pt; */
     color: black;
     font-family: 'Merienda', cursive;
+
+    justify-content: 'center';
+    align-items: 'center';
 }
 
 .author{

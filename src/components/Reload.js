@@ -9,7 +9,7 @@ class Reload extends React.Component{
     render(){
         return(
         	<div>
-		    	<RefreshIcon style={{fontSize:'40pt'}} onClick={this.refreshPage}></RefreshIcon>
+		    	<RefreshIcon style={{fontSize:'40pt', }} onClick={this.refreshPage}></RefreshIcon>
 		    </div>    
         )  
     }

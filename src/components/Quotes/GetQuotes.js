@@ -47,7 +47,7 @@ class GetQuotes extends Component{
             console.log("Author: "+randomQuote.author);
             return(
                 <div>
-                    <ul className="item">
+                    <ul className="item" >
                     {   <div align='center'>
                             <p className="text">{randomQuote.text}</p>
                             {(typeof randomQuote.author !=='undefined' && randomQuote.author !=null ) 
@@ -56,7 +56,7 @@ class GetQuotes extends Component{
 
                         </div>
                         // quotes.map(quote => (
-                        //     <li key={quote.id} align="center">
+                        //     <li align="center">
                         //         <div>
                         //             <p>{quote.text}</p>
                         //             <p>{quote.author}</p>
