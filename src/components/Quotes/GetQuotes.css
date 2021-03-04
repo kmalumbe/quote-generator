@@ -1,0 +1,16 @@
+.text{
+    font-size: 28pt;
+    color: black;
+}
+
+.item{
+    margin: 20px;
+    /* font-size: 20pt; */
+    color: black;
+    font-family: 'Merienda', cursive;
+}
+
+.author{
+    font-size: 16pt;
+    color: black;
+}
